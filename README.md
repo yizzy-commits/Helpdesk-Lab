@@ -12,7 +12,7 @@ We do some basic setup and make a simple user account. Now in the Windows 10 mac
 
 We will also set up a password by left clicking the admin account and clicking "Set Password...". Now from the start menu we can switch to the admin account. Then we will actually remove the user account we started with. This is done simply by going back to Computer Management > right clicking user account > deleting. This Windows 10 machine will act as the helpdesk PC.
 
-Being that this is the helpdesk PC we want to give it AD abilities. How we do that is by installing the RSAT tools. Searching optional features > Add an optional feature > select/check RSAT: Active Directory Certificate Services Tools, AD Domain services, DHCP, DNS, Group Policy, Remote Desktop, Server Manager
+Being that this is the helpdesk PC we want to give it AD abilities. We do that by installing the RSAT tools. Searching optional features > Add an optional feature > select/check RSAT: Active Directory Certificate Services Tools, AD Domain services, DHCP, DNS, Group Policy, Remote Desktop, Server Manager
 
 <img width="1005" height="767" alt="image" src="https://github.com/user-attachments/assets/c1304c40-e471-456e-a9e5-7c4504f05bce" />
 
