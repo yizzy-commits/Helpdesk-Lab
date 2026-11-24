@@ -34,4 +34,24 @@ After a ping test we can see the two VMs are able to reach each other!
 
 <img width="493" height="498" alt="image" src="https://github.com/user-attachments/assets/4d24c4eb-2499-4df8-8586-9754be31f969" />
 
+Now we will finally add this PC to the domain. We do this by going to This PC > Properties > Advanced system settings > Computer name > Change
 
+<img width="1025" height="672" alt="image" src="https://github.com/user-attachments/assets/379dde92-11b3-4f07-a741-9a32de98d40c" />
+
+We enter the domain we are joining (liamlab.com) Then it'll prompt us to enter a username and password. Then we get a welcome message. 
+
+<img width="612" height="382" alt="image" src="https://github.com/user-attachments/assets/232c99f5-1214-4c30-8c00-295cfd4c7c10" />
+
+We can confirm this by going to the Server 2019 VM and looking at our AD Users and Computers.
+
+<img width="847" height="697" alt="image" src="https://github.com/user-attachments/assets/61d30115-80f0-49ee-aaa3-c4c3ff2f44b7" />
+
+This PC is now joined to the domain but we also have to login as a user in the domain so let's do that. We are going to login as the helpdesk user.
+
+<img width="1012" height="840" alt="image" src="https://github.com/user-attachments/assets/9616f08e-45ff-42df-be6a-335ed2815b0a" />
+
+Once we are signed in then we are part of the domain. When we open up our RSAT tools then we can see domain resources.
+
+<img width="1016" height="836" alt="image" src="https://github.com/user-attachments/assets/a3d120b1-1ccc-486f-820d-815b9f9bb55d" />
+
+<b>Perfect!</b>
