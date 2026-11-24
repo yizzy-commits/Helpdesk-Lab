@@ -16,7 +16,7 @@ Being that this is the helpdesk PC we want to give it AD abilities. We do that b
 
 <img width="1005" height="767" alt="image" src="https://github.com/user-attachments/assets/c1304c40-e471-456e-a9e5-7c4504f05bce" />
 
-A low level helpdesk PC will not be given all the tools we have added but we want to get experience so here we are. One more tool we will add is TeamViewer. This is done by simply searching TeamViewer on Edge and downloading. We run the setup exe. However, at this time the machine began to freeze up badly. Even shutting down took a while. So I decided it needed more processors or RAM. I provisioned 4 processors and 4 gigs of RAM. The VM didn't run as well as I'd like but the lacking speed my HDD could be a big factor as well.
+A low level helpdesk PC will not be given all the tools we have added but we want to get experience. One more tool we will add is TeamViewer. This is done by simply searching TeamViewer on Edge, downloading, and running the setup exe. However, at this time the machine began to freeze up badly. So I provisioned 4 processors and 4 gigs of RAM.
 
 Since that download is out of the way we can configure the network settings. As mentioned we are running a host-only adapter through virtualbox meaning we will be cut off from the internet but can connect our two VMs.
 
@@ -30,7 +30,7 @@ To enable our VM to be on the same lab network we will switch it to host-only ad
 
 <img width="957" height="637" alt="image" src="https://github.com/user-attachments/assets/14e01e2e-4f44-427d-963a-5f6ade13965f" />
 
-As we can see the two VMs are able to reach eachother!...
+After a ping test we can see the two VMs are able to reach each other!
 
 <img width="493" height="498" alt="image" src="https://github.com/user-attachments/assets/4d24c4eb-2499-4df8-8586-9754be31f969" />
 
