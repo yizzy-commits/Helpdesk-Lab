@@ -63,7 +63,7 @@ Finally we will move to the User desktop. First we will rename it. We will use t
 
 <img width="351" height="597" alt="image" src="https://github.com/user-attachments/assets/e9c8e197-52fb-45ce-97cb-c7824b22d0d7" />
 
-We will follow similar steps as we did in 2) Helpdesk PC Joins Domain in which we enabled the admin account, deleted the user account, then joined the domain. 
+We will follow similar steps as we did in 2) Helpdesk PC Joins Domain in which we enabled the admin account, deleted the user account, did the IP configuration, then joined the domain. 
 
 <h2>Enable Admin Account</h2>
 The steps consisted of: Computer Management > Local Users and Groups > Users > *right click* Administrator > Properties > *uncheck* Account is disabled >*right click* Administrator > Set Password
@@ -75,4 +75,45 @@ Sign out then login to Admin. We will use the technique of going to file explore
 
 <img width="1012" height="722" alt="image" src="https://github.com/user-attachments/assets/4794fad7-52d7-4cf8-8c8e-dcdaaf5f4409" />
 
+<h2>IP Configuration</h2>
+Control Panel > Network and Internet > Network and Sharing Center > Ethernet > Properties > IPv4. We will address this PC as 10.1.10.4 because it is the next available address. 
+
+<img width="397" height="450" alt="image" src="https://github.com/user-attachments/assets/ed1ba614-56b5-415b-be84-01e0dd7ff52f" />
+
+Don't forget we need to change our VirtualBox network adapter to "Host-only Adapter". This makes it so that our PC (host) acts as the intermediary for our VMs to connect and connection to the internet/LAN is cut off. Essentially we have our own lab network. (Note: The "Internal Network" option would provide the same function however we will use host only since there is nothing that would put our host OS at risk)
+
+<img width="952" height="400" alt="image" src="https://github.com/user-attachments/assets/f2fdfb9a-e4a5-47ca-a304-d1d944463713" />
+
+Ping test comes back positive!
+
+<img width="476" height="302" alt="image" src="https://github.com/user-attachments/assets/073b50cb-0d47-4c1b-ba0d-77ea3d9e6920" />
+
+
 <h2>Join Domain</h2>
+
+file explorer > *right click* This PC > Properties > Advanced system settings > System Properties > Computer Name > Change. Enter domain (liamlab.com) and it'll ask for a username and password of an account that can join this domain (this isn't the account we will sign into) so we will enter our admin credentials.
+
+<img width="318" height="380" alt="image" src="https://github.com/user-attachments/assets/84f2d9a3-65b3-4a02-b9fb-03efd9bb2e22" />
+
+<img width="502" height="442" alt="image" src="https://github.com/user-attachments/assets/1106075e-c124-4359-b111-3e51d105eb99" />
+
+On our Server 2019 VM we can check and see it worked.
+
+<img width="690" height="361" alt="image" src="https://github.com/user-attachments/assets/4eed0b1a-854e-44b8-82f8-98c2d58cb7fd" />
+
+Our PC is now part of our domain!
+
+<h2>Login as User</h2>
+
+Back on our Desktop 2 we will login as Barbara Gordon from HR. As we can see our domain shows as: LIAMLAB
+
+<img width="1007" height="832" alt="image" src="https://github.com/user-attachments/assets/e65a0e73-50c7-404f-a578-3ab764a0bb22" />
+
+<img width="777" height="277" alt="image" src="https://github.com/user-attachments/assets/45ae3094-d95d-4ab9-b91c-600d1d27ff37" />
+
+This checks out on the Server side of things as well.
+
+<img width="802" height="710" alt="image" src="https://github.com/user-attachments/assets/f6431f25-6570-4d56-a0ae-8a37f648bb1d" />
+
+
+<b>Amazing!</b>
