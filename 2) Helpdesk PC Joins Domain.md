@@ -38,7 +38,7 @@ Now we will finally add this PC to the domain. We do this by going to This PC > 
 
 <img width="1025" height="672" alt="image" src="https://github.com/user-attachments/assets/379dde92-11b3-4f07-a741-9a32de98d40c" />
 
-We enter the domain we are joining (liamlab.com) Then it'll prompt us to enter a username and password. Then we get a welcome message. 
+We enter the domain we are joining (liamlab.com) Then it'll prompt us to enter a username and password. Then we get a welcome message. (Note: The name should have been changed to Desktop-1. In the future it will be refered to as Desktop-1)
 
 <img width="612" height="382" alt="image" src="https://github.com/user-attachments/assets/232c99f5-1214-4c30-8c00-295cfd4c7c10" />
 
