@@ -5,3 +5,6 @@ The 2 files that we will need to start the Lab will be:
 VirtualBox https://www.virtualbox.org/wiki/Downloads
 
 Windows Server 2019 https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019
+
+<img width="248" height="70" alt="image" src="https://github.com/user-attachments/assets/e9a1182b-b18c-4ebc-b8fd-1a24f42a5cec" />
+
