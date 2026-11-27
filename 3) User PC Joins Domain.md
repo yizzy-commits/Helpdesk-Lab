@@ -59,10 +59,20 @@ We can exit the editor and right click Default Domain Policy then click enforced
 
 <img width="1007" height="602" alt="image" src="https://github.com/user-attachments/assets/e1c270b7-bfb2-4f41-9433-3396e9ecd279" />
 
-Finally we will move to the User desktop. First we will rename it. We will use the technique of going to file explorer > This PC > *right click* > Properties > Rename. After naming it "Desktop-2" we will restart to apply.
+Finally we will move to the User desktop. First we will rename it. We will use the technique of going to file explorer > *right click* This PC > Properties > Rename this PC. After naming it "Desktop-2" we will restart to apply.
 
 <img width="351" height="597" alt="image" src="https://github.com/user-attachments/assets/e9c8e197-52fb-45ce-97cb-c7824b22d0d7" />
 
-We will follow similar steps as we did in 2) Helpdesk PC Joins Domain in which we enabled the admin account then joined the domain.
+We will follow similar steps as we did in 2) Helpdesk PC Joins Domain in which we enabled the admin account, deleted the user account, then joined the domain. 
 
+<h2>Enable Admin Account</h2>
+The steps consisted of: Computer Management > Local Users and Groups > Users > *right click* Administrator > Properties > *uncheck* Account is disabled >*right click* Administrator > Set Password
 
+<img width="667" height="650" alt="image" src="https://github.com/user-attachments/assets/617e50b3-8a64-4e51-b17b-b7aca86bda2e" />
+
+<h2>Delete User Account</h2>
+Sign out then login to Admin. We will use the technique of going to file explorer > *right click* This PC > Properties > Advanced system settings > User Profiles > Settings
+
+<img width="1012" height="722" alt="image" src="https://github.com/user-attachments/assets/4794fad7-52d7-4cf8-8c8e-dcdaaf5f4409" />
+
+<h2>Join Domain</h2>
