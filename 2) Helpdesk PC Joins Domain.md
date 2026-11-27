@@ -1,4 +1,4 @@
-<h1>Helpdesk Windows 10 PC Joins Domain</h1>
+<h1>Helpdesk Windows 10 PC Joins the Domain</h1>
 
 At this point we will introduce a Windows 10 machine into the lab environment so that we have both Server 2019 running as the active directory domain controller and the Windows 10 which will join that domain. 
 
