@@ -63,4 +63,6 @@ Finally we will move to the User desktop. First we will rename it. We will use t
 
 <img width="351" height="597" alt="image" src="https://github.com/user-attachments/assets/e9c8e197-52fb-45ce-97cb-c7824b22d0d7" />
 
+We will follow similar steps as we did in 2) Helpdesk PC Joins Domain in which we enabled the admin account then joined the domain.
+
 
