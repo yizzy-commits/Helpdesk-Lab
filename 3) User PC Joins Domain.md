@@ -59,7 +59,7 @@ We can exit the editor and right click Default Domain Policy then click enforced
 
 <img width="1007" height="602" alt="image" src="https://github.com/user-attachments/assets/e1c270b7-bfb2-4f41-9433-3396e9ecd279" />
 
-Next we will rename this desktop. We will use the technique of going to file explorer > This PC > *right click* > Properties > Rename. After naming it "Desktop-2" we will restart to apply.
+Finally we will move to the User desktop. First we will rename it. We will use the technique of going to file explorer > This PC > *right click* > Properties > Rename. After naming it "Desktop-2" we will restart to apply.
 
 <img width="351" height="597" alt="image" src="https://github.com/user-attachments/assets/e9c8e197-52fb-45ce-97cb-c7824b22d0d7" />
 
