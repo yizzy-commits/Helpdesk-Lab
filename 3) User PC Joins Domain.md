@@ -4,6 +4,8 @@ We will be creating another VM with the same Windows 10 iso we used for the Help
 
 I provisioned 2 processors and 2 gigs of RAM.
 
+<img width="371" height="211" alt="image" src="https://github.com/user-attachments/assets/d2ed5f46-f2f6-497d-9613-4e97f0c6b81c" />
+
 In the setup of the Windows 10 PC the most important options are: that we choose to install Windows 10 Pro because Windows 10 Home cannot join domains, choose "set up for organization" instead of personal use, and choose "join domain" and a username instead of inputting a Microsoft account to sign into.
 
 Now that our Windows 10 User PC is up we will create the personal account for it on the Helpdesk PC.
